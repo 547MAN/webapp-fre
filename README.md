@@ -2,6 +2,12 @@
 
 This repository is a runnable learning environment for **Freyr Terje Borg**.
 
+## Prerequisites
+
+- .NET 10 SDK
+- Node.js 20 or newer
+- npm
+
 ## Your responsibility
 
 - **Task 7:** user-interface design, user-experience design, user testing and related writing.
