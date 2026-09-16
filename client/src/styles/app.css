@@ -1,0 +1,11 @@
+:root{font-family:Arial,Helvetica,sans-serif;color:#1f2933;background:#f4f6f8}
+*{box-sizing:border-box}
+body{margin:0}
+.starter-shell{max-width:620px;margin:7vh auto;padding:28px;background:white;border:1px solid #ccd4dc;border-radius:8px}
+.starter-layout{min-height:100vh}
+.starter-layout>header{display:flex;justify-content:space-between;gap:20px;align-items:center;padding:16px 24px;background:white;border-bottom:1px solid #ccd4dc}
+.starter-layout nav{display:flex;gap:8px;flex-wrap:wrap}
+.starter-layout main{max-width:1100px;margin:auto;padding:32px 24px}
+.starter-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+form>*{margin-bottom:12px}
+@media(max-width:650px){.starter-layout>header{align-items:flex-start;flex-direction:column}.starter-layout main{padding:20px 14px}}
